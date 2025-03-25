@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* Estilo global do body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+ 
+/* Header da página */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+ 
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+ 
+header p {
+    font-size: 1.2rem;
+    color: #ecf0f1;
+}
+ 
+/* Botão principal no header */
+header .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+ 
+header .cta-button:hover {
+    background-color: #2980b9;
+}
+ 
+/* Seção de produtos */
+.product-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ 
+.product-section h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+/* Cards de produtos */
+.product-card {
+    background: #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+ 
+.product-card h3 {
+    margin: 15px 0;
+    color: #2c3e50;
+}
+ 
+.product-card p {
+    color: #333;
+    margin-bottom: 15px;
+}
+ 
+.product-card .buy-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.product-card .buy-button:hover {
+    background-color: #218c50;
+}
+ 
+/* Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+ 
+footer p {
+    font-size: 0.9rem;
+}
